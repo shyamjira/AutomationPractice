@@ -1,0 +1,206 @@
+git ini
+shyam@DESKTOP-FJGHUJB MINGW32 ~/eclipse-workspace/Com.Maven.QA
+$ git init
+Initialized empty Git repository in C:/Users/shyam/eclipse-workspace/Com.Maven.QA/.git/
+
+shyam@DESKTOP-FJGHUJB MINGW32 ~/eclipse-workspace/Com.Maven.QA (master)
+$ git remote add origin "https://github.com/shyamjira/AutomationPractice.git"
+
+shyam@DESKTOP-FJGHUJB MINGW32 ~/eclipse-workspace/Com.Maven.QA (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        pom.xml
+        src/
+        target/
+        test-output/
+        testng.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+shyam@DESKTOP-FJGHUJB MINGW32 ~/eclipse-workspace/Com.Maven.QA (master)
+$ git add *
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Surefire suite/Surefire test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Surefire suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Surefire suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Surefire suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Surefire suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Surefire suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Surefire suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Surefire suite/reporter-output.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Surefire suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/junitreports/TEST-Com.Maven.QA.Com.Maven.QA.Test.HomePageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/Test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/reporter-output.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-Com.Maven.QA.Com.Maven.QA.Test.HomePageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-Com.Maven.QA.Com.Maven.QA.Test.LoginClass.xml.
+The file will have its original line endings in your working directory
+
+shyam@DESKTOP-FJGHUJB MINGW32 ~/eclipse-workspace/Com.Maven.QA (master)
+$ git commit -m "shyam"
+[master (root-commit) 833ef66] shyam
+ 87 files changed, 1781 insertions(+)
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/Com/Maven/QA/Com/Maven/QA/Base/InitialiseBrowser.java
+ create mode 100644 src/main/java/Com/Maven/QA/Com/Maven/QA/Base/package-info.java
+ create mode 100644 src/main/java/Com/Maven/QA/Com/Maven/QA/PagesPOM/HomePage.java
+ create mode 100644 src/main/java/Com/Maven/QA/Com/Maven/QA/PagesPOM/LoginPage.java
+ create mode 100644 src/main/java/Com/Maven/QA/Com/Maven/QA/PagesPOM/package-info.java
+ create mode 100644 src/main/java/Com/Maven/QA/Com/Maven/QA/Utilities/Utilities.java
+ create mode 100644 src/main/java/Com/Maven/QA/Com/Maven/QA/Utilities/package-info.java
+ create mode 100644 src/test/java/Com/Maven/QA/Com/Maven/QA/Test/HomePageTest.java
+ create mode 100644 src/test/java/Com/Maven/QA/Com/Maven/QA/Test/LoginClass.java
+ create mode 100644 src/test/java/Com/Maven/QA/Com/Maven/QA/Test/package-info.java
+ create mode 100644 target/Com.Maven.QA-0.0.1-SNAPSHOT.jar
+ create mode 100644 target/classes/Com/Maven/QA/Com/Maven/QA/Base/InitialiseBrowser.class
+ create mode 100644 target/classes/Com/Maven/QA/Com/Maven/QA/Base/package-info.class
+ create mode 100644 target/classes/Com/Maven/QA/Com/Maven/QA/PagesPOM/HomePage.class
+ create mode 100644 target/classes/Com/Maven/QA/Com/Maven/QA/PagesPOM/LoginPage.class
+ create mode 100644 target/classes/Com/Maven/QA/Com/Maven/QA/PagesPOM/package-info.class
+ create mode 100644 target/classes/Com/Maven/QA/Com/Maven/QA/Utilities/Utilities.class
+ create mode 100644 target/classes/Com/Maven/QA/Com/Maven/QA/Utilities/package-info.class
+ create mode 100644 target/classes/META-INF/MANIFEST.MF
+ create mode 100644 target/classes/META-INF/maven/Com.Maven.QA/Com.Maven.QA/pom.properties
+ create mode 100644 target/classes/META-INF/maven/Com.Maven.QA/Com.Maven.QA/pom.xml
+ create mode 100644 target/maven-archiver/pom.properties
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+ create mode 100644 target/surefire-reports/Com.Maven.QA.Com.Maven.QA.Test.HomePageTest.txt
+ create mode 100644 target/surefire-reports/Surefire suite/Surefire test.html
+ create mode 100644 target/surefire-reports/Surefire suite/Surefire test.properties
+ create mode 100644 target/surefire-reports/Surefire suite/Surefire test.xml
+ create mode 100644 target/surefire-reports/Surefire suite/classes.html
+ create mode 100644 target/surefire-reports/Surefire suite/groups.html
+ create mode 100644 target/surefire-reports/Surefire suite/index.html
+ create mode 100644 target/surefire-reports/Surefire suite/main.html
+ create mode 100644 target/surefire-reports/Surefire suite/methods-alphabetical.html
+ create mode 100644 target/surefire-reports/Surefire suite/methods-not-run.html
+ create mode 100644 target/surefire-reports/Surefire suite/methods.html
+ create mode 100644 target/surefire-reports/Surefire suite/reporter-output.html
+ create mode 100644 target/surefire-reports/Surefire suite/testng-failed.xml
+ create mode 100644 target/surefire-reports/Surefire suite/testng.xml.html
+ create mode 100644 target/surefire-reports/Surefire suite/toc.html
+ create mode 100644 target/surefire-reports/TEST-Com.Maven.QA.Com.Maven.QA.Test.HomePageTest.xml
+ create mode 100644 target/surefire-reports/emailable-report.html
+ create mode 100644 target/surefire-reports/index.html
+ create mode 100644 target/surefire-reports/junitreports/TEST-Com.Maven.QA.Com.Maven.QA.Test.HomePageTest.xml
+ create mode 100644 target/surefire-reports/testng-failed.xml
+ create mode 100644 target/surefire-reports/testng-results.xml
+ create mode 100644 target/surefire-reports/testng.css
+ create mode 100644 target/test-classes/Com/Maven/QA/Com/Maven/QA/Test/HomePageTest.class
+ create mode 100644 target/test-classes/Com/Maven/QA/Com/Maven/QA/Test/LoginClass.class
+ create mode 100644 target/test-classes/Com/Maven/QA/Com/Maven/QA/Test/package-info.class
+ create mode 100644 test-output/Default suite/Default test.html
+ create mode 100644 test-output/Default suite/Default test.properties
+ create mode 100644 test-output/Default suite/Default test.xml
+ create mode 100644 test-output/Default suite/classes.html
+ create mode 100644 test-output/Default suite/groups.html
+ create mode 100644 test-output/Default suite/index.html
+ create mode 100644 test-output/Default suite/main.html
+ create mode 100644 test-output/Default suite/methods-alphabetical.html
+ create mode 100644 test-output/Default suite/methods-not-run.html
+ create mode 100644 test-output/Default suite/methods.html
+ create mode 100644 test-output/Default suite/reporter-output.html
+ create mode 100644 test-output/Default suite/testng-failed.xml
+ create mode 100644 test-output/Default suite/testng.xml.html
+ create mode 100644 test-output/Default suite/toc.html
+ create mode 100644 test-output/Suite/Test.html
+ create mode 100644 test-output/Suite/Test.properties
+ create mode 100644 test-output/Suite/Test.xml
+ create mode 100644 test-output/Suite/classes.html
+ create mode 100644 test-output/Suite/groups.html
+ create mode 100644 test-output/Suite/index.html
+ create mode 100644 test-output/Suite/main.html
+ create mode 100644 test-output/Suite/methods-alphabetical.html
+ create mode 100644 test-output/Suite/methods-not-run.html
+ create mode 100644 test-output/Suite/methods.html
+ create mode 100644 test-output/Suite/reporter-output.html
+ create mode 100644 test-output/Suite/testng.xml.html
+ create mode 100644 test-output/Suite/toc.html
+ create mode 100644 test-output/emailable-report.html
+ create mode 100644 test-output/index.html
+ create mode 100644 test-output/junitreports/TEST-Com.Maven.QA.Com.Maven.QA.Test.HomePageTest.xml
+ create mode 100644 test-output/junitreports/TEST-Com.Maven.QA.Com.Maven.QA.Test.LoginClass.xml
+ create mode 100644 test-output/testng-failed.xml
+ create mode 100644 test-output/testng-results.xml
+ create mode 100644 test-output/testng.css
+ create mode 100644 testng.xml
+
+shyam@DESKTOP-FJGHUJB MINGW32 ~/eclipse-workspace/Com.Maven.QA (master)
+$ git push origin master
+Enumerating objects: 139, done.
+Counting objects: 100% (139/139), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (97/97), done.
+Writing objects: 100% (139/139), 30.57 KiB | 652.00 KiB/s, done.
+Total 139 (delta 30), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (30/30), done.
+To https://github.com/shyamjira/AutomationPractice.git
+ * [new branch]      master -> master
+
+shyam@DESKTOP-FJGHUJB MINGW32 ~/eclipse-workspace/Com.Maven.QA (master)
+$
