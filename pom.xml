@@ -104,6 +104,7 @@
           <configuration>
           <suiteXmlFiles>
            <suiteXmlFile>Programs.xml</suiteXmlFile>
+           <suiteXmlFile>Project.xml</suiteXmlFile>
           </suiteXmlFiles>
           </configuration>
         </plugin>
