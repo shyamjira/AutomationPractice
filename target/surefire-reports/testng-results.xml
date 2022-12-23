@@ -1,36 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Shop button is verified]]>
-    </line>
-    <line>
-      <![CDATA[MyAccountBtn is verified]]>
-    </line>
-    <line>
-      <![CDATA[AllSiteBtn is verified]]>
-    </line>
-    <line>
-      <![CDATA[DemoSiteBtn is verified]]>
-    </line>
-    <line>
-      <![CDATA[AddToCartBtn is verified]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-12-23T08:17:09Z" name="Surefire suite" finished-at="2022-12-23T08:17:59Z" duration-ms="49699">
+  <suite started-at="2022-12-23T14:08:48Z" name="Suite" finished-at="2022-12-23T14:08:49Z" duration-ms="116">
     <groups>
     </groups>
-    <test started-at="2022-12-23T08:17:09Z" name="Surefire test" finished-at="2022-12-23T08:17:59Z" duration-ms="49699">
-      <class name="Com.Maven.QA.Com.Maven.QA.Test.HomePageTest">
-        <test-method is-config="true" signature="setUp()" started-at="2022-12-23T08:17:09Z" name="setUp" finished-at="2022-12-23T08:17:32Z" duration-ms="22891" status="PASS">
+    <test started-at="2022-12-23T14:08:48Z" name="Test" finished-at="2022-12-23T14:08:49Z" duration-ms="116">
+      <class name="Com.Maven.QA.Com.Maven.QA.Programs.StarPatternPrograms">
+        <test-method is-config="true" signature="ArrayProgmsStarted()" started-at="2022-12-23T14:08:48Z" name="ArrayProgmsStarted" finished-at="2022-12-23T14:08:48Z" duration-ms="0" status="PASS">
         </test-method>
-        <test-method signature="HomePageTestig()" started-at="2022-12-23T08:17:32Z" name="HomePageTestig" finished-at="2022-12-23T08:17:59Z" duration-ms="26327" status="PASS">
+        <test-method is-config="true" signature="NewProgramStarted()" started-at="2022-12-23T14:08:48Z" name="NewProgramStarted" finished-at="2022-12-23T14:08:48Z" duration-ms="1" status="PASS">
         </test-method>
-        <test-method is-config="true" signature="tearDown()" started-at="2022-12-23T08:17:59Z" name="tearDown" finished-at="2022-12-23T08:17:59Z" duration-ms="443" status="PASS">
+        <test-method signature="FstarPattern()" started-at="2022-12-23T14:08:48Z" name="FstarPattern" finished-at="2022-12-23T14:08:48Z" duration-ms="17" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="ProgramEnded()" started-at="2022-12-23T14:08:48Z" name="ProgramEnded" finished-at="2022-12-23T14:08:48Z" duration-ms="1" status="PASS">
+        </test-method>
+        <test-method signature="SecondstarPattern()" started-at="2022-12-23T14:08:49Z" name="SecondstarPattern" finished-at="2022-12-23T14:08:49Z" duration-ms="12" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="NewProgramStarted()" started-at="2022-12-23T14:08:49Z" name="NewProgramStarted" finished-at="2022-12-23T14:08:49Z" duration-ms="0" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="ProgramEnded()" started-at="2022-12-23T14:08:49Z" name="ProgramEnded" finished-at="2022-12-23T14:08:49Z" duration-ms="0" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="NewProgramStarted()" started-at="2022-12-23T14:08:49Z" name="NewProgramStarted" finished-at="2022-12-23T14:08:49Z" duration-ms="2" status="PASS">
+        </test-method>
+        <test-method signature="ThirdstarPattern()" started-at="2022-12-23T14:08:49Z" name="ThirdstarPattern" finished-at="2022-12-23T14:08:49Z" duration-ms="10" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="ProgramEnded()" started-at="2022-12-23T14:08:49Z" name="ProgramEnded" finished-at="2022-12-23T14:08:49Z" duration-ms="0" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="NewProgramStarted()" started-at="2022-12-23T14:08:49Z" name="NewProgramStarted" finished-at="2022-12-23T14:08:49Z" duration-ms="3" status="PASS">
+        </test-method>
+        <test-method signature="ForthstarPattern()" started-at="2022-12-23T14:08:49Z" name="ForthstarPattern" finished-at="2022-12-23T14:08:49Z" duration-ms="11" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="ProgramEnded()" started-at="2022-12-23T14:08:49Z" name="ProgramEnded" finished-at="2022-12-23T14:08:49Z" duration-ms="1" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="NewProgramStarted()" started-at="2022-12-23T14:08:49Z" name="NewProgramStarted" finished-at="2022-12-23T14:08:49Z" duration-ms="0" status="PASS">
+        </test-method>
+        <test-method signature="SixthstarPattern()" started-at="2022-12-23T14:08:49Z" name="SixthstarPattern" finished-at="2022-12-23T14:08:49Z" duration-ms="1" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="ProgramEnded()" started-at="2022-12-23T14:08:49Z" name="ProgramEnded" finished-at="2022-12-23T14:08:49Z" duration-ms="0" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="ArrayProgmsEnded()" started-at="2022-12-23T14:08:49Z" name="ArrayProgmsEnded" finished-at="2022-12-23T14:08:49Z" duration-ms="0" status="PASS">
         </test-method>
       </class>
-      <class name="Com.Maven.QA.Com.Maven.QA.Test.JavaProramTest">
-        <test-method signature="Programs()" started-at="2022-12-23T08:17:59Z" name="Programs" finished-at="2022-12-23T08:17:59Z" duration-ms="26" status="PASS">
+      <class name="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms">
+        <test-method is-config="true" signature="ArrayProgmsStarted()" started-at="2022-12-23T14:08:48Z" name="ArrayProgmsStarted" finished-at="2022-12-23T14:08:48Z" duration-ms="23" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="NewProgramStarted()" started-at="2022-12-23T14:08:48Z" name="NewProgramStarted" finished-at="2022-12-23T14:08:48Z" duration-ms="0" status="PASS">
+        </test-method>
+        <test-method signature="MaxNumberOfArray()" started-at="2022-12-23T14:08:48Z" name="MaxNumberOfArray" finished-at="2022-12-23T14:08:48Z" duration-ms="2" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="ProgramEnded()" started-at="2022-12-23T14:08:48Z" name="ProgramEnded" finished-at="2022-12-23T14:08:48Z" duration-ms="0" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="NewProgramStarted()" started-at="2022-12-23T14:08:48Z" name="NewProgramStarted" finished-at="2022-12-23T14:08:48Z" duration-ms="1" status="PASS">
+        </test-method>
+        <test-method signature="MinNunberOfArray()" started-at="2022-12-23T14:08:48Z" name="MinNunberOfArray" finished-at="2022-12-23T14:08:48Z" duration-ms="1" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="ProgramEnded()" started-at="2022-12-23T14:08:48Z" name="ProgramEnded" finished-at="2022-12-23T14:08:49Z" duration-ms="1" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="NewProgramStarted()" started-at="2022-12-23T14:08:49Z" name="NewProgramStarted" finished-at="2022-12-23T14:08:49Z" duration-ms="1" status="PASS">
+        </test-method>
+        <test-method signature="MissingNumberOfArray()" started-at="2022-12-23T14:08:49Z" name="MissingNumberOfArray" finished-at="2022-12-23T14:08:49Z" duration-ms="0" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="ProgramEnded()" started-at="2022-12-23T14:08:49Z" name="ProgramEnded" finished-at="2022-12-23T14:08:49Z" duration-ms="1" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="ArrayProgmsEnded()" started-at="2022-12-23T14:08:49Z" name="ArrayProgmsEnded" finished-at="2022-12-23T14:08:49Z" duration-ms="1" status="PASS">
         </test-method>
       </class>
     </test>

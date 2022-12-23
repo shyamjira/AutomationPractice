@@ -1,3 +1,7 @@
+Com\Maven\QA\Com\Maven\QA\Programs\ArraysPrograms.class
+Com\Maven\QA\Com\Maven\QA\PagesPOM\LoginPage.class
+Com\Maven\QA\Com\Maven\QA\Programs\StarPatternPrograms.class
 Com\Maven\QA\Com\Maven\QA\Utilities\Utilities.class
 Com\Maven\QA\Com\Maven\QA\Base\InitialiseBrowser.class
-Com\Maven\QA\Com\Maven\QA\PagesPOM\LoginPage.class
+Com\Maven\QA\Com\Maven\QA\PagesPOM\HomePage.class
+Com\Maven\QA\Com\Maven\QA\Programs\StringPrograms.class

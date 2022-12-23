@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="DESKTOP-FJGHUJB" failures="0" tests="2" name="Com.Maven.QA.Com.Maven.QA.Test.HomePageTest" time="49.699" errors="0" timestamp="23 Dec 2022 02:47:59 GMT">
-  <testcase classname="Com.Maven.QA.Com.Maven.QA.Test.HomePageTest" name="HomePageTestig" time="26.327"/>
-  <testcase classname="Com.Maven.QA.Com.Maven.QA.Test.JavaProramTest" name="Programs" time="0.026"/>
-</testsuite>
