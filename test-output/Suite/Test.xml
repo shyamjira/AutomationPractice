@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="DESKTOP-FJGHUJB" failures="0" tests="3" name="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" time="0.22" errors="0" timestamp="23 Dec 2022 02:43:02 GMT">
-  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" name="MaxNumberOfArray" time="0.026"/>
-  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" name="MinNunberOfArray" time="0.014"/>
-  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" name="MissingNumberOfArray" time="0.014"/>
+<testsuite hostname="DESKTOP-FJGHUJB" failures="0" tests="8" name="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" time="0.179" errors="0" timestamp="23 Dec 2022 14:45:32 GMT">
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" name="MaxNumberOfArray" time="0.014"/>
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.StarPatternPrograms" name="FstarPattern" time="0.022"/>
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" name="MinNunberOfArray" time="0.011"/>
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.StarPatternPrograms" name="SecondstarPattern" time="0.01"/>
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" name="MissingNumberOfArray" time="0.003"/>
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.StarPatternPrograms" name="ThirdstarPattern" time="0.006"/>
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.StarPatternPrograms" name="ForthstarPattern" time="0.004"/>
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.StarPatternPrograms" name="SixthstarPattern" time="0.001"/>
 </testsuite>
