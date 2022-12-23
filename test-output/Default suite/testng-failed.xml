@@ -3,10 +3,9 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)" preserve-order="false">
     <classes>
-      <class name="Com.Maven.QA.Com.Maven.QA.Test.HomePageTest">
+      <class name="Com.Maven.QA.Com.Maven.QA.Test.JavaProramTest">
         <methods>
-          <include name="setUp"/>
-          <include name="HomePageTestig"/>
+          <include name="Programs"/>
         </methods>
       </class>
     </classes>

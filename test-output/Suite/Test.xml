@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="DESKTOP-FJGHUJB" failures="0" tests="2" name="Com.Maven.QA.Com.Maven.QA.Test.HomePageTest" time="129.326" errors="0" timestamp="21 Dec 2022 16:43:55 GMT">
-  <testcase classname="Com.Maven.QA.Com.Maven.QA.Test.LoginClass" name="LoginPageTest" time="28.116"/>
-  <testcase classname="Com.Maven.QA.Com.Maven.QA.Test.HomePageTest" name="HomePageTestig" time="48.819"/>
+<testsuite hostname="DESKTOP-FJGHUJB" failures="0" tests="3" name="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" time="0.22" errors="0" timestamp="23 Dec 2022 02:43:02 GMT">
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" name="MaxNumberOfArray" time="0.026"/>
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" name="MinNunberOfArray" time="0.014"/>
+  <testcase classname="Com.Maven.QA.Com.Maven.QA.Programs.ArraysPrograms" name="MissingNumberOfArray" time="0.014"/>
 </testsuite>
